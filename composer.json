@@ -1,0 +1,28 @@
+{
+    "name": "contao-components/stylect",
+    "type": "component",
+    "description": "Contao Open Source CMS stylect",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leo Feyer",
+            "homepage": "https://github.com/leofeyer"
+        }
+    ],
+    "require": {
+        "robloach/component-installer": "~0.0"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "js/stylect.min.js"
+            ],
+            "styles": [
+                "css/stylect.min.css"
+            ],
+            "files": [
+                "images/*"
+            ]
+        }
+    }
+}
