@@ -1,6 +1,6 @@
 {
     "name": "contao-components/stylect",
-    "type": "component",
+    "type": "contao-component",
     "description": "Contao Open Source CMS stylect",
     "license": "MIT",
     "authors": [
@@ -10,19 +10,6 @@
         }
     ],
     "require": {
-        "robloach/component-installer": "~0.0"
-    },
-    "extra": {
-        "component": {
-            "scripts": [
-                "js/stylect.min.js"
-            ],
-            "styles": [
-                "css/stylect.min.css"
-            ],
-            "files": [
-                "images/*"
-            ]
-        }
+        "contao-components/installer": "~1.0"
     }
 }
