@@ -18,13 +18,13 @@ var Stylect =
 	/**
 	 * Check for WebKit
 	 * @member {boolean}
- 	 */
+	 */
 	isWebkit: (Browser.chrome || Browser.safari || navigator.userAgent.match(/(?:webkit|khtml)/i)),
 
 	/**
 	 * Create the div template
 	 * @member {string}
- 	 */
+	 */
 	template: new Element('div', {
 		'class': 'styled_select',
 		'html': '<span></span><b><i></i></b>'
