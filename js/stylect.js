@@ -89,7 +89,6 @@ var Stylect =
 			// Clone the template
 			if (!div) {
 				div = Stylect.template.clone();
-				new Element('div.styled_select_wrapper').wraps(el); // see #507
 				div.addClass(cls).inject(el, 'before');
 			}
 
